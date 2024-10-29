@@ -85,7 +85,7 @@ header h2{
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 62px 76px 63px 32px;
+    padding: 58px 76px 58px 32px;
 }
 .glad_to_help_content h2{
     font-size: 48px;
@@ -194,9 +194,75 @@ header h2{
     line-height: 123.6%;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 64px;
 }
-
-
+.price_plans_section .price_plans_cards{
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+}
+.price_plans_section .price_plans_card{
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    width: 100%;
+}
+.price_plans_card h4{
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 18px 0;
+}
+.price_plans_card .price_plan{
+    color: #2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin-bottom: 29px;
+    text-align: center;
+}
+.price_plans_card .plans_card_content{
+    padding: 36px 48px 24px;
+}
+.price_plans_card .price_plan span{
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+    padding-left: 12px;
+}
+.price_plans_card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.price_plans_card ul li {
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.price_plans_card ul li.included {
+    background-image: url('img/Check.svg');
+}
+.price_plans_card ul li:not(.included) {
+    background-image: url('img/Close.svg');
+    opacity: 0.5;
+}
 .send_email_section{
     border-radius: 25px;
     background: #FF7315;
@@ -204,6 +270,7 @@ header h2{
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px 50px 75px;
+    margin: 0 15px;
 }
 .send_email_section h2{
     color: #F9F9F9;
