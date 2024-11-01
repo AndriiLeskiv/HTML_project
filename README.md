@@ -1,23 +1,23 @@
-# Фінальна робота з HTML
+# Final HTML Project
 
-## Опис проєкту
-Це фінальна робота з HTML, яка включає базову верстку для демонстрації веб-сторінки. 
-Проєкт створений із використанням HTML та CSS, щоб показати структуру сторінки та стилізацію основних елементів.
+## Project Description
+This is a final HTML project, which includes basic layout for demonstrating a web page. 
+The project was created using HTML and CSS to showcase the page structure and styling of the main elements.
 
-## Використані технології
+## Technologies Used
 - HTML
 - CSS
 
-## Структура файлів
-- `index.html` – головний HTML файл із розміткою сторінки
-- `style.css` – файл зі стилями для оформлення сторінки
-- `img/` – папка з використаними зображеннями
+## File Structure
+- `index.html` – the main HTML file with page markup
+- `style.css` – the stylesheet for page styling
+- `img/` – folder containing used images
 
-## Особливості проєкту
-- Інтерактивні елементи, стилізовані за допомогою CSS
+## Project Features
+- Interactive elements styled with CSS
 
-## Інструкції з запуску
-Щоб переглянути проєкт, відкрийте файл `index.html` у браузері.
+## Launch Instructions
+To view the project, open the `index.html` file in a browser.
 
-## Автор
-Автор: Андрій Леськів
+## Author
+Author: Andrii Leskiv
