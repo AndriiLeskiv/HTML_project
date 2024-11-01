@@ -23,15 +23,21 @@ header h2{
 }
 /*************************Main******************************/
 .main_container{
-    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
+}
+.main_container section:not(.loved_by_user_section){
+    width: 100%;
+    max-width: 1140px;
 }
 .main_container .banner_section{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 0 26px 0 32px;
+    padding: 0 26px 0 34px;
 }
 .banner_section .banner_box h1{
     font-size: 40px;
@@ -183,8 +189,9 @@ header h2{
 .loved_by_user_section{
     background: #FF7315;
     padding: 48px 0;
-    width: 100vw;
-    margin-left: calc((100vw - 100%) / -2);
+    width: 100%;
+    /*width: 100vw;*/
+    /*margin-left: calc((100vw - 100%) / -2);*/
 }
 .loved_by_user_section h2{
     width: 609px;
