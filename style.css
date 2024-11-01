@@ -48,6 +48,26 @@ header h2{
     gap: 30px;
     padding-top: 25px;
 }
+.social_box {
+    display: flex;
+    gap: 16px;
+    height: 48px;
+}
+.social_box a {
+    cursor: pointer;
+}
+.social_box svg:nth-child(1):hover path:first-of-type,
+.social_box svg:nth-child(2):hover path:first-of-type ,
+.social_box svg:nth-child(3):hover path:first-of-type,
+.social_box svg:nth-child(4):hover path:first-of-type {
+    fill: #FF2950;
+}
+.social_box svg:nth-child(1):hover path:last-of-type,
+.social_box svg:nth-child(2):hover path:last-of-type,
+.social_box svg:nth-child(3):hover path:last-of-type,
+.social_box svg:nth-child(4):hover path:last-of-type {
+    fill: #fff;
+}
 .banner_btn_group .btn_download,
 .banner_btn_group .btn_send{
     width: 151px;
