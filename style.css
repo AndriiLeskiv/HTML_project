@@ -277,10 +277,10 @@ header h2{
     background-position: left center;
 }
 .price_plans_card ul li.included {
-    background-image: url('img/Check.svg');
+    background-image: url('img/check.svg');
 }
 .price_plans_card ul li:not(.included) {
-    background-image: url('img/Close.svg');
+    background-image: url('img/close.svg');
     opacity: 0.5;
 }
 .send_email_section{
