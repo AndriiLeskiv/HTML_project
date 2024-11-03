@@ -87,6 +87,7 @@ header h2{
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     border: 2px solid #FF2950;
+    transition: 1.1s;
 }
 .banner_btn_group .btn_send{
     color: #F9F9F9;
@@ -95,6 +96,7 @@ header h2{
 .banner_btn_group .btn_send:hover{
     background: #FF9B70;
     border-color: #FF9B70;
+    transition: 1.1s;
 }
 .banner_btn_group .btn_download{
     border: 2px solid #FF9B70;
@@ -105,6 +107,7 @@ header h2{
     background: #FF2950;
     color: #F9F9F9;
     border-color: #FF2950;
+    transition: 1.1s;
 }
 .glad_to_help_section{
     margin: 125px 0;
@@ -188,8 +191,13 @@ header h2{
     gap: 24px;
     padding: 64px 0 125px;
 }
+.portfolio_section .portfolio_items img{
+    cursor: pointer;
+    transition: 1.1s;
+}
 .portfolio_section .portfolio_items img:hover{
-
+    transition: 1.1s;
+    transform: scale(1.04);
 }
 .loved_by_user_section{
     background: #FF7315;
@@ -329,9 +337,11 @@ header h2{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: 1.1s;
 }
 .send_email_section button:hover{
     color: #FF7315;
+    transition: 1.1s;
 }
 .blog_section{
     padding: 125px 0;
