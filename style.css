@@ -359,6 +359,7 @@ header h2{
     font-size: 16px;
     font-weight: 500;
     line-height: 123.6%;
+    padding-top: 11px;
     text-transform: capitalize;
 }
 .blog_section .blog_item p{
